@@ -1,30 +1,30 @@
-
-# ESP32-Radio with Spectrum analyzer
+ # ESP32-Radio with Spectrum analyzer
 
 based on the excellent
 https://github.com/Edzelf/ESP32-Radio
 
-based on the modified code by Mirko Dalmonte
-https://github.com/Edzelf/ESP32-Radio/issues/86
-(the code on the issues/86 does not compile due to poor export, some characters are missing: * /)
+based on the modified code by Mirko Dalmonte<br/>
+https://github.com/Edzelf/ESP32-Radio/issues/86 <br/>
+the code on the issues/86 does not compile due to poor export, some characters are missing: * /
 
-I contacted Mirko, got the correct code, mixed with the updted version of ESP32-Radio one.
+I contacted Mirko, got the correct code, mixed with the updted version of the original Edzelf/ESP32-Radio one.
 
-I downloaded the patches and plugins for VS1053b and adapted them to the code.
-http://www.vlsi.fi/en/support/software/vs10xxplugins.html
-http://www.vlsi.fi/en/support/software/vs10xxpatches.html
-
-There is no need to the patches,
+I downloaded the patches and plugins for VS1053b<br/>
+http://www.vlsi.fi/en/support/software/vs10xxplugins.html <br/>
+http://www.vlsi.fi/en/support/software/vs10xxpatches.html <br/>
+ and adapted them to my code.
+ 
+There is no need to the patches,<br/>
 but the plugin that do the spectrum analysis is transferred from the Flash memory to the VS1053 at the beginning, when ESP32 starts.
+It is called within the code at regular samples.<br/>
 
-I adapted the code to suit my 2.4" TFT ILI9341 module display.
+I adapted the code to suit my 2.4" TFT ILI9341 module display.<br/>
 I have no touch interface on this model.
 
 ![ILI9341_FFT](img/ILI9341_FFT.jpg)
 ![ILI9341_FFT](img/webradioESP32_FFT.jpg)
 
-
-
+<br/>
 My config file:
     
     # Example configuration
