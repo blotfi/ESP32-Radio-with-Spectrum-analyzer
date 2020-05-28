@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ESP32_radio" targetName="Z_DUMMY_TARGET" />
+      <config projectName="ESP32_radio" targetName="Debug" />
+      <config projectName="ESP32_radio" targetName="Production" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="lolin32" CONFIG_NAME="lolin32" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4569c6f-34f4-4c25-857d-bcd50301035b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:lolin32" />
+  <component name="ProjectId" id="1cJIwvm3sac7GECZuHv8i0u9SD4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/mirko/ESP32_Radio/Esp32_radio.ino" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/doc/mirko/ESP32_Radio/Esp32_radio.ino" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\users\baghli\Arduino\ESP32\ESP32_radio\doc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PlatformIO.PlatformIO Upload">
+    <configuration name="PlatformIO Debug" type="platformio" factoryName="PlatformIO Debug" nameIsGenerated="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ESP32_radio" TARGET_NAME="Debug" CONFIG_NAME="lolin32">
+      <method v="2" />
+    </configuration>
+    <configuration name="PlatformIO Upload" type="platformio" factoryName="PlatformIO Upload" nameIsGenerated="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ESP32_radio" TARGET_NAME="Production" CONFIG_NAME="lolin32">
+      <method v="2" />
+    </configuration>
+    <configuration name="PlatformIO Uploadfs" type="platformio" factoryName="PlatformIO Uploadfs" nameIsGenerated="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ESP32_radio" TARGET_NAME="Production" CONFIG_NAME="lolin32">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PlatformIO.PlatformIO Debug" />
+      <item itemvalue="PlatformIO.PlatformIO Upload" />
+      <item itemvalue="PlatformIO.PlatformIO Uploadfs" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4569c6f-34f4-4c25-857d-bcd50301035b" name="Default Changelist" comment="" />
+      <created>1590240511780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590240511780</updated>
+      <workItem from="1590240512971" duration="25755000" />
+      <workItem from="1590343334839" duration="6343000" />
+      <workItem from="1590425552122" duration="10062000" />
+      <workItem from="1590492703273" duration="14645000" />
+      <workItem from="1590599829405" duration="15000" />
+      <workItem from="1590599852907" duration="609000" />
+      <workItem from="1590628700823" duration="13103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="91" key="#Plugins" timestamp="1590628689148">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="392" y="91" key="#Plugins/0.0.1600.900@0.0.1600.900" timestamp="1590628689148" />
+    <state x="254" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590240981681">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="254" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1590240981681" />
+    <state x="92" y="92" width="1416" height="716" maximized="true" key="DiffContextDialog" timestamp="1590631065394">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="92" y="92" width="1416" height="716" maximized="true" key="DiffContextDialog/0.0.1600.900@0.0.1600.900" timestamp="1590631065394" />
+    <state x="580" y="205" key="FileChooserDialogImpl" timestamp="1590630787860">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="580" y="205" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1590630787860" />
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1590661482859">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1590661482859" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1590661482859">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1590661482859" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1590661482859">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1590661482859" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1590661482859">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1590661482859" />
+    <state x="380" y="185" key="IDE.errors.dialog" timestamp="1590442822475">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="380" y="185" key="IDE.errors.dialog/0.0.1600.900@0.0.1600.900" timestamp="1590442822475" />
+    <state x="301" y="95" key="SettingsEditor" timestamp="1590240908283">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="301" y="95" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1590240908283" />
+    <state x="92" y="92" width="1416" height="716" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590639330440">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="92" y="92" width="1416" height="716" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.900@0.0.1600.900" timestamp="1590639330440" />
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1590531826048">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1590531826048" />
+    <state x="522" y="362" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590294445547">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="522" y="362" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1600.900@0.0.1600.900" timestamp="1590294445547" />
+  </component>
+</project>
