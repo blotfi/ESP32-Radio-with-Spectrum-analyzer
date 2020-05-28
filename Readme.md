@@ -1,5 +1,5 @@
 
-#ESP32-Radio with Spectrum analyzer
+# ESP32-Radio with Spectrum analyzer
 
 based on the excellent
 https://github.com/Edzelf/ESP32-Radio
