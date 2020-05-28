@@ -4,9 +4,11 @@
 based on the excellent
 https://github.com/Edzelf/ESP32-Radio
 
-based on the modified code by Mirko Dalmonte:
+based on the modified code by Mirko Dalmonte
 https://github.com/Edzelf/ESP32-Radio/issues/86
-(the code on the issues/86 does not compile due to poor export some characters are missing: * /)
+(the code on the issues/86 does not compile due to poor export, some characters are missing: * /)
+
+I contacted Mirko, got the correct code, mixed with the updted version of ESP32-Radio one.
 
 I downloaded the patches and plugins for VS1053b and adapted them to the code.
 http://www.vlsi.fi/en/support/software/vs10xxplugins.html
@@ -122,5 +124,8 @@ You can connect to your
 
     http://192.168.1.???/config.html
 to put this config
-Enjoy
 
+On the sdcard you must put MP3 files with no spaces or fancy characters in the filenames.
+You can save the playlist as explained in https://github.com/Edzelf/ESP32-Radio/blob/master/doc/ESP32-radio.pdf
+
+Enjoy programming
