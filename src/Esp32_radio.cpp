@@ -5799,8 +5799,8 @@ void displayTimeLine()
 // *
 //**************************************************************************************************
 void displaySpectrum() {
-    uint8_t larg = dsp_getheight() / bands-2; //todo why we can't go up to 320
-    uint8_t posi = 0;
+    uint8_t larg = dsp_getwidth() / bands-2;
+    uint16_t  posi = 5; // start location of the first bar
     boolean visual = true;
 //    if (enc_menu_mode == MENU)
 //    {
@@ -5813,7 +5813,6 @@ void displaySpectrum() {
     }
     for (uint8_t i = 0; i < bands; i++) // Handle all sections
     {
-        posi = (larg + 2)*(i+1);
         if (visual) {
             if (spectrum[i][0] > spectrum[i][1]) {
                 dsp_fillRect (posi, Spectrum_y0 + Spectrum_hy - spectrum[i][0], larg, spectrum[i][0], GREEN);
@@ -5826,6 +5825,7 @@ void displaySpectrum() {
         if (visual)
             dsp_fillRect (posi, Spectrum_y0 + Spectrum_hy - spectrum[i][2] - 3, larg, 2, RED);
         spectrum[i][1] = spectrum[i][0];
+        posi += larg + 2;
     }
 }
 
