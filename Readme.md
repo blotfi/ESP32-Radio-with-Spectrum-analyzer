@@ -128,9 +128,9 @@ to put this config
 On the sdcard you must put MP3 files with no spaces or fancy characters in the filenames.
 You can save the playlist as explained in https://github.com/Edzelf/ESP32-Radio/blob/master/doc/ESP32-radio.pdf
 
-Explanations in video:<br/>
+**Explanations in video**:<br/>
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/aWUMx9HL5kk/0.jpg)](http://www.youtube.com/watch?v=aWUMx9HL5kk "ESP32 radio")
 
 Enjoy programming under **CLion / PlateformeIO**<br/>
-Check my other video:<br/>
+Check my other **video**:<br/>
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/HP0uNj6u15I/0.jpg)](http://www.youtube.com/watch?v=HP0uNj6u15I "CLion and PlatformIO")
