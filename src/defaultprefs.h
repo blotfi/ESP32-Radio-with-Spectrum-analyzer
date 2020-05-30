@@ -70,13 +70,13 @@ ir_44BB = mute
 ir_807F = stop
 # GPIO pinnings
 pin_ir = 35                                          # GPIO Pin number for IR receiver VS1838B
-pin_enc_clk = 25                                     # GPIO Pin number for rotary encoder "CLK"
+pin_enc_clk = 27                                     # GPIO Pin number for rotary encoder "CLK"
 pin_enc_dt = 26                                      # GPIO Pin number for rotary encoder "DT"
-pin_enc_sw = 27                                      # GPIO Pin number for rotary encoder "SW"
+pin_enc_sw = 25                                      # GPIO Pin number for rotary encoder "SW"
 #
 pin_tft_cs = 15                                      # GPIO Pin number for TFT "CS"
 pin_tft_dc = 2                                       # GPIO Pin number for TFT "DC"
-#pin_tft_bl = 26                                     # GPIO Pin number for TFT backlight control, comment to not active
+#pin_tft_bl = 14                                     # GPIO Pin number for TFT backlight control, comment to not active
 #
 pin_sd_cs = 21                                       # GPIO Pin number for SD card "CS"
 #

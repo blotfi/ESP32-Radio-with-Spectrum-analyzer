@@ -65,12 +65,11 @@
 // GPIO1    TXD0    -                   -                     -       Reserved serial output
 // GPIO34   -       -                   -                     -       Optional pull-up resistor
 // GPIO35   -       -                   -                     -       used : Infrared receiver VS1838B
-// GPIO25   -                           -                     -       Rotary encoder CLK
-// GPIO26   -       pin 8 TFT_LED       -                     -      // Rotary encoder DT
-// GPIO27   -       -                   -                     -       Rotary encoder SW
-// GPIO27   -       INMP441_WS
-// GPIO14           INMP441_SCK
-// GPIOXXx           INMP441_SD
+// GPIO27   -                           -                     -       Rotary encoder CLK
+// GPIO26   -       -                   -                     -       Rotary encoder DT
+// GPIO25   -       -                   -                     -       Rotary encoder SW
+// GPIO14           pin 8 TFT_LED
+// GPIOXXx
 // -------  ------  ---------------     -------------------  ------   ----------------
 // GND      -       pin 2 TFT_GND       pin 8 GND                     Power supply GND
 // VCC 5 V  -                           -                             Power supply
@@ -1974,7 +1973,6 @@ void IRAM_ATTR isr_IR()
   t0 = t1 ;                                          // Save for next compare
   if ( ( intval > 300 ) && ( intval < 800 ) )        // Short pulse?
   {
-//dbgprint("ir short pulse");
     ir_locvalue = ir_locvalue << 1 ;                 // Shift in a "zero" bit
     ir_loccount++ ;                                  // Count number of received bits
     ir_0 = ( ir_0 * 3 + intval ) / 4 ;               // Compute average durartion of a short pulse
@@ -1983,12 +1981,10 @@ void IRAM_ATTR isr_IR()
   {
     ir_locvalue = ( ir_locvalue << 1 ) + 1 ;         // Shift in a "one" bit
     ir_loccount++ ;                                  // Count number of received bits
-//      dbgprint("ir long pulse ir_loccount=%d", ir_loccount);
-      ir_1 = ( ir_1 * 3 + intval ) / 4 ;               // Compute average durartion of a short pulse
+    ir_1 = ( ir_1 * 3 + intval ) / 4 ;               // Compute average durartion of a short pulse
   }
   else if ( ir_loccount == 65 )                      // Value is correct after 65 level changes
   {
-//dbgprint("ir Value is correct after 65 level changes");
     while ( mask_in )                                // Convert 32 bits to 16 bits
     {
       if ( ir_locvalue & mask_in )                   // Bit set in pattern?
@@ -3272,7 +3268,7 @@ void scanIR()
   const char* reply ;                                       // Result of analyzeCmd
 
   if ( ir_value )                                           // Any input?
-  {//dbgprint("ir received");
+  {
     sprintf ( mykey, "ir_%04X", ir_value ) ;                // Form key in preferences
     if ( nvssearch ( mykey ) )
     {
