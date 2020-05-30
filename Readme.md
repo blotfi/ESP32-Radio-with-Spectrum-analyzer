@@ -21,10 +21,10 @@ It is called within the code at regular samples.<br/>
 I adapted the code to suit my 2.4" TFT ILI9341 module display.<br/>
 I have no touch interface on this model.
 
-30/05/2020 Updated schematic + code: Encoder connection changed, TFT_LED also,
+**30/05/2020** Updated schematic + code: Encoder connection changed, TFT_LED also,
 added Encoder with a 100 nF capacitor between Enc_SW and GND<br/>
-29/05/2020 Updated code with 14 FFT bars on all the witdh of the TFT screen<br/>
-28/05/2020 First release<br/>
+**29/05/2020** Updated code with 14 FFT bars on all the witdh of the TFT screen<br/>
+**28/05/2020** First release<br/>
 
 ![ILI9341_FFT](img/ILI9341_FFT.jpg)
 ![ILI9341_FFT](img/webradioESP32_FFT.jpg)
