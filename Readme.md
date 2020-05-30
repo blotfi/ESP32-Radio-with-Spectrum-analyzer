@@ -21,8 +21,15 @@ It is called within the code at regular samples.<br/>
 I adapted the code to suit my 2.4" TFT ILI9341 module display.<br/>
 I have no touch interface on this model.
 
+30/05/2020 Updated schematic + code: Encoder connection changed, TFT_LED also
+29/05/2020 Updated code with 14 FFT bars on all the witdh of the TFT screen
+28/05/2020 First release
+
 ![ILI9341_FFT](img/ILI9341_FFT.jpg)
 ![ILI9341_FFT](img/webradioESP32_FFT.jpg)
+
+
+![schematics](img/webradioESP32s.svg)
 
 <br/>
 My config file:
@@ -95,13 +102,13 @@ My config file:
     ir_807F = stop
     # GPIO pinnings
     pin_ir = 35                                          # GPIO Pin number for IR receiver VS1838B
-    pin_enc_clk = 25                                     # GPIO Pin number for rotary encoder "CLK"
+    pin_enc_clk = 27                                     # GPIO Pin number for rotary encoder "CLK"
     pin_enc_dt = 26                                      # GPIO Pin number for rotary encoder "DT"
-    pin_enc_sw = 27                                      # GPIO Pin number for rotary encoder "SW"
+    pin_enc_sw = 25                                      # GPIO Pin number for rotary encoder "SW"
     #
     pin_tft_cs = 15                                      # GPIO Pin number for TFT "CS"
     pin_tft_dc = 2                                       # GPIO Pin number for TFT "DC"
-    #pin_tft_bl = 26                                     # GPIO Pin number for TFT backlight control, comment to not active
+    #pin_tft_bl = 14                                     # GPIO Pin number for TFT backlight control, comment to not active
     #
     pin_sd_cs = 21                                       # GPIO Pin number for SD card "CS"
     #
