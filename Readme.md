@@ -21,7 +21,8 @@ It is called within the code at regular samples.<br/>
 I adapted the code to suit my 2.4" TFT ILI9341 module display.<br/>
 I have no touch interface on this model.
 
-**05/06/2020** added one line to avoid a possible division by zero and range if there is no internet
+Versions:<br/>
+**05/06/2020** added one line to avoid a possible division by zero and range if there is no internet<br/>
 **30/05/2020** Updated schematic + code: Encoder connection changed, TFT_LED also,
 added Encoder with a 100 nF capacitor between Enc_SW and GND<br/>
 **29/05/2020** Updated code with 14 FFT bars on all the witdh of the TFT screen<br/>
