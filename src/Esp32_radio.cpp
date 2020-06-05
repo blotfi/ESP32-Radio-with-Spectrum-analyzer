@@ -5795,7 +5795,7 @@ void displayTimeLine()
 // *
 //**************************************************************************************************
 void displaySpectrum() {
-    if (bands<=0 || bands>=14)  return;
+    if (bands<=0 || bands>14)  return;
     uint8_t larg = dsp_getwidth() / bands-2;
     uint16_t  posi = 5; // start location of the first bar
     boolean visual = true;
