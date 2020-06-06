@@ -144,3 +144,8 @@ You can save the playlist as explained in https://github.com/Edzelf/ESP32-Radio/
 Enjoy programming under **CLion / PlateformeIO**<br/>
 Check my other **video**:<br/>
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/HP0uNj6u15I/0.jpg)](http://www.youtube.com/watch?v=HP0uNj6u15I "CLion and PlatformIO")
+<br/><br/>
+Control the Web Radio with a remote control on Android, also made by me:<br/>
+https://play.google.com/store/apps/details?id=com.embesystems.esp_radio_rc <br/>
+<br/>
+[![IMAGE ALT TEXT](img/remote_controls.png)](https://play.google.com/store/apps/details?id=com.embesystems.esp_radio_rc)
